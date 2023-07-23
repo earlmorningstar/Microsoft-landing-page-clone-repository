@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700;800;900;1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Cypro+Minoan&display=swap");
 
 * {
   margin: 0;
@@ -12,7 +13,6 @@
 .navbar {
   display: flex;
   align-items: center;
-  /* gap: 30px; */
   justify-content: space-between;
   padding: 15px 60px;
 }
@@ -48,18 +48,19 @@
 
 .link-and-icon {
   display: flex;
+  align-items: center;
   gap: 5px;
 }
 
 .nav-right-side {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .navbar-icons {
   display: flex;
-  gap: 15px;
+  gap: 25px;
 }
 
 .navbar-links {
@@ -81,32 +82,53 @@
 }
 
 .ms365-on-img {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
+  /* font-family: 'Noto Sans Cypro Minoan', sans-serif; */
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: 600;
   font-size: 28px;
+  line-height: 60px;
 }
 
 .text-on-img {
-  font-family: "Nunito Sans", sans-serif;
+  /* font-family: "Nunito Sans", sans-serif; */
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
   font-size: 16px;
+  font-weight: 400;
   width: 340px;
-  line-height: 150%;
+  line-height: 25px;
+  margin-bottom: 20px;
 }
 
 .btn-on-img {
-  font-family: "Kanit", sans-serif;
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: 500;
   background-color: #0067b8;
   color: #ffffff;
   font-size: 18px;
-  border: 1px solid;
+  border: 1px solid #0067b8;
   border-radius: 4px;
   padding: 10px 12px;
 }
 
+.btn-on-img:hover {
+  cursor: pointer;
+  background-color: #035696;
+}
+
 .six-people-text {
-  font-family: "Kanit", sans-serif;
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: 500;
   font-size: 18px;
   color-interpolation-filters: #000000;
+}
+
+.six-people-text:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .six-and-icon {
@@ -123,4 +145,15 @@
 .btn-and-link {
   display: flex;
   gap: 30px;
+}
+
+.third-section {
+  margin: 80px 60px 0 60px;
+  display: flex;
+  gap: 30px;
+  /* justify-content: space-between; */
+}
+
+.third-section-img {
+  width: 250px;
 }
