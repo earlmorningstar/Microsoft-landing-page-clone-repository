@@ -47,8 +47,8 @@
 }
 
 .link-and-icon {
-    display: flex;
-    gap: 5px;
+  display: flex;
+  gap: 5px;
 }
 
 .nav-right-side {
@@ -73,23 +73,18 @@
   cursor: pointer;
   text-decoration: underline;
   text-decoration-thickness: 2px;
-  /* text-decoration-skip-ink: none;
-    border-bottom: 2px; */
 }
 
 .ms-detailed-item-img {
+  position: relative;
   width: 100%;
 }
 
 .ms365-on-img {
   font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  font-size: 24px;
+  font-weight: 700;
+  font-size: 28px;
 }
-
-/* .texts-and-btn-on-img {
-
-} */
 
 .text-on-img {
   font-family: "Nunito Sans", sans-serif;
@@ -108,8 +103,24 @@
   padding: 10px 12px;
 }
 
-.six-people-text{
-    font-family: "Kanit", sans-serif;
-    font-size: 18px;
-    color-interpolation-filters: #000000;
+.six-people-text {
+  font-family: "Kanit", sans-serif;
+  font-size: 18px;
+  color-interpolation-filters: #000000;
+}
+
+.six-and-icon {
+  display: flex;
+  align-items: center;
+}
+
+.texts-and-btn-on-img {
+  position: absolute;
+  top: 230px;
+  left: 100px;
+}
+
+.btn-and-link {
+  display: flex;
+  gap: 30px;
 }
