@@ -73,6 +73,7 @@
 .navbar-links:hover {
   cursor: pointer;
   text-decoration: underline;
+  text-underline-offset: 5px;
   text-decoration-thickness: 2px;
 }
 
@@ -134,6 +135,11 @@
 .six-and-icon {
   display: flex;
   align-items: center;
+  color: #0067b8;
+}
+
+#six-people-right-arrow {
+  color: #000000;
 }
 
 .texts-and-btn-on-img {
@@ -157,3 +163,40 @@
 .third-section-img {
   width: 250px;
 }
+
+.bolded-title {
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 140%;
+  margin-bottom: 8px;
+}
+
+.split-section-1 {
+  width: 30%;
+  /* height: 40%; */
+}
+
+.split-section-info {
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 17px;
+  line-height: 170%;
+}
+
+.split-section-link {
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0067b8;
+  margin: 20px 0;
+}
+
+.split-section-link:hover {
+  text-decoration: underline;
+  text-decoration-color: #0067b8;
+}
+
+.
